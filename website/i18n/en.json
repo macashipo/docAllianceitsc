@@ -5,21 +5,107 @@
     "previous": "Previous",
     "tagline": "A website for testing",
     "docs": {
-      "doc1": {
-        "title": "Latin-ish",
-        "sidebar_label": "Example Page"
+      "Deloyment/deloyment": {
+        "title": "Deloyment"
       },
-      "doc2": {
-        "title": "document number 2"
+      "Development/development": {
+        "title": "Development"
       },
-      "doc3": {
-        "title": "This is document number 3"
+      "Development/template_coding": {
+        "title": "Template Coding"
       },
       "doc4": {
         "title": "Other Document"
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "Installation/installation": {
+        "title": "Installation"
+      },
+      "Introduction/introduction": {
+        "title": "Introduction"
+      },
+      "MyButton/_default": {
+        "title": "_default"
+      },
+      "MyButton/new_button": {
+        "title": "Create New Button"
+      },
+      "MyCellType/new_celltype": {
+        "title": "Create New CellType"
+      },
+      "MyCellType/readonly": {
+        "title": "readonly"
+      },
+      "MyCellType/text": {
+        "title": "text"
+      },
+      "MyFormControl/_default": {
+        "title": "_default"
+      },
+      "MyFormControl/new_form_control": {
+        "title": "Create New Form - Control"
+      },
+      "MyFormControl/readonly": {
+        "title": "readonly"
+      },
+      "MyFormForm/_default": {
+        "title": "_default"
+      },
+      "MyFormForm/meeting_minute": {
+        "title": "meeting_minute"
+      },
+      "MyFormForm/new_form_form": {
+        "title": "Create New Form - Form"
+      },
+      "MyModal/_default": {
+        "title": "_default"
+      },
+      "MyModal/new_modal": {
+        "title": "Create New Modal"
+      },
+      "MyPage/_default": {
+        "title": "_default"
+      },
+      "MyPage/newpage": {
+        "title": "Create New Page"
+      },
+      "MyUI/_default": {
+        "title": "_default"
+      },
+      "MyUI/new_ui": {
+        "title": "Create New UI"
+      },
+      "page": {
+        "title": "docs"
+      },
+      "PageTable/chart": {
+        "title": "Chart"
+      },
+      "PageTable/filter": {
+        "title": "Filter"
+      },
+      "PageTable/general": {
+        "title": "General"
+      },
+      "PageTable/header": {
+        "title": "Header"
+      },
+      "PageTable/introduction": {
+        "title": "Introduction"
+      },
+      "PageTable/pt_introduction": {
+        "title": "Introduction"
+      },
+      "PageTable/table": {
+        "title": "Table"
+      },
+      "Testing/running_tests": {
+        "title": "Running tests"
+      },
+      "Testing/test_unit": {
+        "title": "Create Test Unit"
       }
     },
     "links": {
@@ -29,9 +115,20 @@
       "Blog": "Blog"
     },
     "categories": {
-      "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Get Started": "Get Started",
+      "Installation": "Installation",
+      "Development": "Development",
+      "Testing": "Testing",
+      "Deloyment": "Deloyment",
+      "MyPage": "MyPage",
+      "Page-Table": "Page-Table",
+      "MyCellType": "MyCellType",
+      "MyForm-Form": "MyForm-Form",
+      "MyForm-Control": "MyForm-Control",
+      "MyModal": "MyModal",
+      "MyButton": "MyButton",
+      "MyUI": "MyUI",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {

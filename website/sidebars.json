@@ -1,10 +1,103 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Get Started": ["Introduction/introduction"],
+    "Installation": ["Installation/installation"],
+    "Development": ["Development/development","Development/template_coding"],
+    "Testing": ["Testing/test_unit","Testing/running_tests"],
+    "Deloyment": ["Deloyment/deloyment"],
+    "MyPage": [
+      "MyPage/newpage",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyPage/_default"
+        ]
+      }
+    ],
+    "Page-Table": [
+      "PageTable/introduction",
+      {
+        "type": "subcategory",
+        "label": "Config",
+        "ids": [
+          "PageTable/general",
+          "PageTable/header",
+          "PageTable/filter",
+          "PageTable/chart",
+          "PageTable/table"
+        ]
+      }
+    ],
+    "MyCellType": [
+      "MyCellType/new_celltype",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyCellType/readonly",
+          "MyCellType/text"
+
+        ]
+      }
+    ],
+    "MyForm-Form": [
+      "MyFormForm/new_form_form",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyFormForm/_default",
+          "MyFormForm/meeting_minute"
+
+        ]
+      }
+    ],
+    "MyForm-Control": [
+      "MyFormControl/new_form_control",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyFormControl/_default",
+          "MyFormControl/readonly"
+
+        ]
+      }
+    ],
+    "MyModal": [
+      "MyModal/new_modal",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyModal/_default"
+        ]
+      }
+    ],
+    "MyButton": [
+      "MyButton/new_button",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyButton/_default"
+        ]
+      }
+    ],
+    "MyUI": [
+      "MyUI/new_ui",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "MyUI/_default"
+        ]
+      }
+    ]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
   }
+
 }
