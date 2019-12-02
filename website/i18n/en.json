@@ -20,6 +20,9 @@
       "Document/docusaurus": {
         "title": "Docusaurus"
       },
+      "Document/extended_syntax_markdown": {
+        "title": "Extended Syntax Markdown"
+      },
       "doc4": {
         "title": "Other Document"
       },

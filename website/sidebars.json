@@ -2,7 +2,7 @@
   "docs": {
     "Get Started": ["Introduction/introduction"],
     "Installation": ["Installation/installation","Installation/new_project"],
-    "Document": ["Document/docusaurus","Document/basic_syntax_markdown"],
+    "Document": ["Document/docusaurus","Document/basic_syntax_markdown","Document/extended_syntax_markdown"],
     "Development": ["Development/development","Development/template_coding"],
     "Library": ["Library/bootstrap","Library/firebase","Library/gg_analytics","Library/moment","Library/axios","Library/gg_chart"],
     "Testing": ["Testing/test_unit","Testing/running_tests"],
