@@ -75,8 +75,6 @@ The rendered output looks like this:
 
 ## **Blockquotes with Multiple Paragraphs**
 
-Blockquotes can contain multiple paragraphs. Add a > on the blank lines between the paragraphs.
-
 ```
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
@@ -90,8 +88,6 @@ The rendered output looks like this:
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
 ## **Nested Blockquotes**
-
-Blockquotes can be nested. Add a >> in front of the paragraph you want to nest.
 
 ```
 > Dorothy followed her through many of the beautiful rooms in her castle.
@@ -237,9 +233,7 @@ The rendered output looks like this:
 1.  Open the file containing the Linux mascot.
 2.  Marvel at its beauty.
 
-    <!-- ![Tux, the Linux mascot](/assets/images/tux.png) -->
-    <!-- ![Tux, the Linux mascot](/website/static/img/tux.png) -->
-
+    ![Tux, the Linux mascot](/img/tux.png)
 
 3.  Close the file.
 
@@ -315,8 +309,6 @@ My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best sea
 
 ## **URLs and Email Addresses**
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
-
 ```
 <https://www.markdownguide.org>
 <fake@example.com>
@@ -328,8 +320,6 @@ The rendered output looks like this:
 <fake@example.com>
 
 ## **Formatting Links**
-
-To emphasize links, add asterisks before and after the brackets and parentheses. To denote links as code, add backticks in the brackets.
 
 ```
 I love supporting the **[EFF](https://eff.org)**.
@@ -357,35 +347,35 @@ Although not required, you can include a space between the first and second set 
 
 This means the following example formats are roughly equivalent for the first part of the link:
 
-[hobbit-hole][1]
+- \[hobbit-hole]\[1]
 
-[hobbit-hole] [1]
+- \[hobbit-hole] \[1]
 
 ## **Formatting the Second Part of the Link**
 
 The second part of a reference-style link is formatted with the following attributes:
 
-The label, in brackets, followed immediately by a colon and at least one space (e.g., [label]: ).
+1. The label, in brackets, followed immediately by a colon and at least one space (e.g., [label]: ).
 
-The URL for the link, which you can optionally enclose in angle brackets.
+2. The URL for the link, which you can optionally enclose in angle brackets.
 
-The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
+3. The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
 
 This means the following example formats are all roughly equivalent for the second part of the link:
 
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+- \[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
 
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
+- \[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"
 
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
+- \[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle 'Hobbit lifestyles'
 
-[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
+- \[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle (Hobbit lifestyles)
 
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
+- \[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
 
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
+- \[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'
 
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
+- \[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
 
 You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
 
@@ -423,8 +413,6 @@ and the HTML for the link would be:
 
 ## **Images**
 
-To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
-
 ```
 ![Philadelphia's Magic Gardens. This place was so cool!](/img/tux.png "Philadelphia's Magic Gardens")
 ```
@@ -435,19 +423,15 @@ The rendered output looks like this:
 
 ## **Linking Images**
 
-To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
-
 ```
-[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+[![An old rock in the desert](/img/tux.png "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
 ```
 
 The rendered output looks like this:
 
-[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+[![An old rock in the desert](/img/tux.png "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
 
 ## **Escaping Characters**
-
-To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
 
 ```
 \* Without the backslash, this would be a bullet in an unordered list.
