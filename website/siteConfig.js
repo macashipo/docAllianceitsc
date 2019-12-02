@@ -50,13 +50,19 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/reactjs.ico',
+  // headerIcon: 'img/favicon.ico',
   footerIcon: 'img/reactjs.ico',
+  // footerIcon: 'img/favicon.ico',
   reactjs: 'img/reactjs.ico',
+  // reactjs: 'img/favicon.ico',
+
 
   /* Colors for website */
   colors: {
     primaryColor: '#20232a',
     secondaryColor: '#2c5d02',
+    // secondaryColor: '#03a7dd',
+
   },
 
   /* Custom fonts for website */
