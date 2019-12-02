@@ -14,6 +14,12 @@
       "Development/template_coding": {
         "title": "Template Coding"
       },
+      "Document/basic_syntax_markdown": {
+        "title": "Basic Syntax Markdown"
+      },
+      "Document/docusaurus": {
+        "title": "Docusaurus"
+      },
       "doc4": {
         "title": "Other Document"
       },
@@ -23,8 +29,29 @@
       "Installation/installation": {
         "title": "Installation"
       },
+      "Installation/new_project": {
+        "title": "Create new Project"
+      },
       "Introduction/introduction": {
         "title": "Introduction"
+      },
+      "Library/axios": {
+        "title": "Axios"
+      },
+      "Library/bootstrap": {
+        "title": "Bootstrap"
+      },
+      "Library/firebase": {
+        "title": "Firebase"
+      },
+      "Library/gg_analytics": {
+        "title": "Google Analytics"
+      },
+      "Library/gg_chart": {
+        "title": "Google Chart"
+      },
+      "Library/moment": {
+        "title": "Moment"
       },
       "MyButton/_default": {
         "title": "_default"
@@ -117,7 +144,9 @@
     "categories": {
       "Get Started": "Get Started",
       "Installation": "Installation",
+      "Document": "Document",
       "Development": "Development",
+      "Library": "Library",
       "Testing": "Testing",
       "Deloyment": "Deloyment",
       "MyPage": "MyPage",
