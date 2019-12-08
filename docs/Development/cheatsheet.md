@@ -13,3 +13,24 @@ class Hello extends React.Component {
   }
 }
 ```
+
+## Children
+
+```
+class Box extends Component {
+  render () {
+    return (
+      <div className='box'>
+        {this.props.children}
+      </div>
+    }
+  }
+}
+```
+
+Using
+```
+<Box>
+  <p>Hello</p>
+</Box>
+```
