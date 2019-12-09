@@ -8,6 +8,15 @@ title: _default
 
 Nếu không có giá trị sẽ render component này
 
+***Kèm hình ảnh***
+
+## **More**
+
+| Tên | Type | Mô tả |
+| --- | ---- |------ |
+| style | Object | style của component |
+| className | Object | class của component |
+
 ## **Ví dụ**
 
 Xem trong [test mybutton](http://localhost:8080/#/dev/mybutton) 

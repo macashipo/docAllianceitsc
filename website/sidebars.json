@@ -3,8 +3,9 @@
     "Get Started": ["Introduction/introduction"],
     "Installation": ["Installation/installation","Installation/new_project"],
     "Document": ["Document/docusaurus","Document/basic_syntax_markdown","Document/extended_syntax_markdown"],
-    "Development": ["Development/development","Development/template_coding","Development/javascript","Development/cheatsheet"],
+    "Development": ["Development/development","Development/template_coding","Development/javascript","Development/cheatsheet","Development/debug_on_chrome"],
     "Library": ["Library/bootstrap","Library/firebase","Library/gg_analytics","Library/moment","Library/axios","Library/gg_chart"],
+    "Javascript": ["Javascript/common_issue"],
     "Testing": ["Testing/test_unit","Testing/running_tests"],
     "Deloyment": ["Deloyment/deloyment"],
     "MyPage": [
@@ -78,6 +79,7 @@
       }
     ],
     "MyButton": [
+      "MyButton/_mybutton",
       "MyButton/new_button",
       {
         "type": "subcategory",

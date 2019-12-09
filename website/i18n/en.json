@@ -11,6 +11,9 @@
       "Development/cheatsheet": {
         "title": "Cheatsheet"
       },
+      "Development/debug_on_chrome": {
+        "title": "Debug On Chrome"
+      },
       "Development/development": {
         "title": "Development"
       },
@@ -48,7 +51,7 @@
         "title": "Introduction"
       },
       "Javascript/common_issue": {
-        "title": "Javascript/common_issue"
+        "title": "Common Issue"
       },
       "Library/axios": {
         "title": "Axios"
@@ -70,6 +73,9 @@
       },
       "MyButton/_default": {
         "title": "_default"
+      },
+      "MyButton/_mybutton": {
+        "title": "My Button"
       },
       "MyButton/new_button": {
         "title": "Create New Button"
@@ -162,6 +168,7 @@
       "Document": "Document",
       "Development": "Development",
       "Library": "Library",
+      "Javascript": "Javascript",
       "Testing": "Testing",
       "Deloyment": "Deloyment",
       "MyPage": "MyPage",
