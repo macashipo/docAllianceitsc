@@ -8,8 +8,14 @@
       "Deloyment/deloyment": {
         "title": "Deloyment"
       },
+      "Development/cheatsheet": {
+        "title": "Cheatsheet"
+      },
       "Development/development": {
         "title": "Development"
+      },
+      "Development/javascript": {
+        "title": "Javascript"
       },
       "Development/template_coding": {
         "title": "Template Coding"
@@ -35,8 +41,14 @@
       "Installation/new_project": {
         "title": "Create new Project"
       },
+      "Installation/structure": {
+        "title": "Installation/structure"
+      },
       "Introduction/introduction": {
         "title": "Introduction"
+      },
+      "Javascript/common_issue": {
+        "title": "Javascript/common_issue"
       },
       "Library/axios": {
         "title": "Axios"
