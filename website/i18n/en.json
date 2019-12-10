@@ -8,8 +8,17 @@
       "Deloyment/deloyment": {
         "title": "Deloyment"
       },
+      "Development/cheatsheet": {
+        "title": "Cheatsheet"
+      },
+      "Development/debug_on_chrome": {
+        "title": "Debug On Chrome"
+      },
       "Development/development": {
         "title": "Development"
+      },
+      "Development/javascript": {
+        "title": "Javascript"
       },
       "Development/template_coding": {
         "title": "Template Coding"
@@ -35,8 +44,14 @@
       "Installation/new_project": {
         "title": "Create new Project"
       },
+      "Installation/structure": {
+        "title": "Installation/structure"
+      },
       "Introduction/introduction": {
         "title": "Introduction"
+      },
+      "Javascript/common_issue": {
+        "title": "Common Issue"
       },
       "Library/axios": {
         "title": "Axios"
@@ -59,8 +74,32 @@
       "MyButton/_default": {
         "title": "_default"
       },
+      "MyButton/_mybutton": {
+        "title": "My Button"
+      },
+      "MyButton/action": {
+        "title": "action"
+      },
+      "MyButton/api": {
+        "title": "api"
+      },
+      "MyButton/cs_qs2_textareafull": {
+        "title": "cs_qs2_textareafull"
+      },
+      "MyButton/form": {
+        "title": "form"
+      },
+      "MyButton/link": {
+        "title": "link"
+      },
+      "MyButton/modal": {
+        "title": "modal"
+      },
       "MyButton/new_button": {
         "title": "Create New Button"
+      },
+      "MyButton/upload": {
+        "title": "upload"
       },
       "MyCellType/new_celltype": {
         "title": "Create New CellType"
@@ -150,6 +189,7 @@
       "Document": "Document",
       "Development": "Development",
       "Library": "Library",
+      "Javascript": "Javascript",
       "Testing": "Testing",
       "Deloyment": "Deloyment",
       "MyPage": "MyPage",
