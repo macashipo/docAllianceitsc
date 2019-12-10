@@ -85,7 +85,13 @@
         "type": "subcategory",
         "label": "Types",
         "ids": [
-          "MyButton/_default"
+          "MyButton/_default",
+          "MyButton/action",
+          "MyButton/api",
+          "MyButton/form",
+          "MyButton/modal",
+          "MyButton/upload",
+          "MyButton/cs_qs2_textareafull"
         ]
       }
     ],

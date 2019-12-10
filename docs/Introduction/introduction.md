@@ -3,4 +3,4 @@ id: introduction
 title: Introduction
 ---
 
-introduction information
+introduction information (xóa)
