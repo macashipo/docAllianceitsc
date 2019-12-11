@@ -3,10 +3,11 @@ id: readonly
 title: readonly
 ---
 
-
 ## **Mô tả**
 
  Hiển thị text dạng chỉ đọc
+
+![](/img/mycell_readonly.png)
 
 ## **More**
 
@@ -17,7 +18,7 @@ title: readonly
 
 ## **Ví dụ**
 
-Xem trong [test celltype](http://localhost:8080/#/dev/celltype) 
+Xem trong [http://localhost:8080/#/dev/celltype](http://localhost:8080/#/dev/celltype) 
 
 ## **Code**
 

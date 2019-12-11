@@ -101,6 +101,48 @@
       "MyButton/upload": {
         "title": "upload"
       },
+      "MyCategory/alert": {
+        "title": "Alert"
+      },
+      "MyCategory/below_filter": {
+        "title": "Below Filter"
+      },
+      "MyCategory/below_header": {
+        "title": "Below Header"
+      },
+      "MyCategory/chart": {
+        "title": "Chart"
+      },
+      "MyCategory/filter": {
+        "title": "Filter"
+      },
+      "MyCategory/form_add_new": {
+        "title": "Form Add New"
+      },
+      "MyCategory/header": {
+        "title": "Header"
+      },
+      "MyCategory/signature": {
+        "title": "Signature"
+      },
+      "MyCategory/table": {
+        "title": "Table"
+      },
+      "MyCategory/top_header": {
+        "title": "Top Header"
+      },
+      "MyCellType/api": {
+        "title": "api"
+      },
+      "MyCellType/checkbox": {
+        "title": "checkbox"
+      },
+      "MyCellType/currency": {
+        "title": "currency"
+      },
+      "MyCellType/date": {
+        "title": "date"
+      },
       "MyCellType/new_celltype": {
         "title": "Create New CellType"
       },
@@ -109,6 +151,12 @@
       },
       "MyCellType/text": {
         "title": "text"
+      },
+      "MyCellType/textarea": {
+        "title": "textarea"
+      },
+      "MyCellType/textareafull": {
+        "title": "textareafull"
       },
       "MyFormControl/_default": {
         "title": "_default"
@@ -192,6 +240,7 @@
       "Javascript": "Javascript",
       "Testing": "Testing",
       "Deloyment": "Deloyment",
+      "MyCategory": "MyCategory",
       "MyPage": "MyPage",
       "Page-Table": "Page-Table",
       "MyCellType": "MyCellType",

@@ -1,13 +1,13 @@
 ---
-id: text
-title: text
+id: textarea
+title: textarea
 ---
 
 ## **Mô tả**
 
- Hiển thị text dạng có thể chỉnh sửa
+ Hiển thị text dạng có thể chỉnh sửa và xuống hàng
 
-![](/img/mycell_text.png)
+![](/img/mycell_textarea.png)
 
 ## **More**
 
@@ -24,25 +24,22 @@ Xem trong [http://localhost:8080/#/dev/celltype](http://localhost:8080/#/dev/cel
 ## **Code**
 
 ```javascript
-import React from 'react'
-import {
-  Input,
-} from 'reactstrap';
+import React from 'react';
+import {Input} from 'reactstrap';
 import classnames from 'classnames';
 import PropTypes from 'prop-types'
 import {CellHelper} from '../Helpers';
-
 /**
- * Cell Type: text.
+ * Cell Type: textarea.
  *
- * @class text
+ * @class textarea
  * @static
- * @namespace text
+ * @namespace textarea
  * @memberof CellType
  * 
- * @example
- * Url: /config-color
- * bgF: ColorCode // Dùng làm màu nền của ô
+ * @example 
+ * Url: /config-staff
+ * Col: FirstName    
  */
 class Z extends React.Component {
   static propTypes = {
@@ -53,10 +50,10 @@ class Z extends React.Component {
     super(props);
     const {cell,row,extra} = this.props;
     this.state={
-        value:'',
+        value: ''
     };
     if (cell){
-      this.state.value = cell
+        this.state.value = cell;
     }
   }
 
@@ -64,60 +61,70 @@ class Z extends React.Component {
    * Thuộc tính sử dụng trong more:
    * 
    * @method more
-   * @memberof CellType.text
+   * @memberof CellType.readonly
    * @param {Object} [style] style của Component
    * @param {Object} [className] class của Component
    * @param {String} [placeHolder] placeHolder của Input
-   * 
+   *
   */
   more() {
   }
 
   componentWillReceiveProps(nextProps){
     const {cell,row} = nextProps;
-    // console.warn('celltype text componentWillReceiveProps',nextProps,this.props,cell,this.props.cell);
-    // if(cell!=null && this.props.cell !=null && cell!=this.props.cell){
-    if(cell!=null && cell!=this.props.cell){
+    // console.warn('celltype componentWillReceiveProps',nextProps,this.props);
+    if(cell!=null && this.props.cell !=null && cell!=this.props.cell){
       let _value = cell!=null?cell:false;
       this.setState({value:_value})
-    }else if(cell==null && cell!=this.props.cell){
-      this.setState({value:""})
     }
   }
 
+  // _onChange=(ev, value)=>{
+  //   const {cell,row,extra,placeholder,disabled} = this.props;
+  //   let _fnList = CellHelper.getFnList({extra,row});
+  //   let _fnRequestUpdate = _fnList.fnRequestUpdate;
+  //   let _fieldName = extra.fieldName;
+  //   if (_fnRequestUpdate){
+  //     if (value!=cell && !(cell==null && value=="")){
+  //       _fnRequestUpdate(row, _fieldName, value);
+  //     }
+  //   }
+  // }
+
   render() {
-    const {cell,row,extra} = this.props;
-    // console.warn('celltype text',this.props);
+    const {cell,row,extra,} = this.props;
+    // console.warn('extra', extra);
     let _more = CellHelper.getMoreInType({extra:extra,row:row});
     let _style = CellHelper.getExtraStyle({extra:extra,row:row});
     let _className = classnames("idiv-ro has-wrap",CellHelper.getExtraClassName({extra:extra,row:row,more:_more}));
     let _fnList = CellHelper.getFnList({extra,row});
-    let _styleInput = Object.assign({height:'100%'},_style);
+    let _styleInput = Object.assign({height:'100%',display:'flex', alignItems:'center'},_style);
     let _placeHolder = _more.placeHolder;
     let _disabled = !CellHelper.getCanEdit({extra,row});
-    // console.warn('_disabled:',_disabled,extra,row);
+    let _rowInput = _more.rows || 4;
     return (
       <div>
-        <Input
+        <Input 
           className={_className}
           style={_styleInput}
-          type="text"
+          type='textarea'
+          rows={_rowInput}
           value={this.state.value} 
-          placeholder = {_placeHolder}
+          placeholder = { _placeHolder }
           disabled={_disabled}
-          onBlur={(ev)=>{
-            // this._onChange(ev, this.state.value);
+          onBlur={ (ev) => {
+            // this._onChange(ev, this.state.value)
             CellHelper.callRequestUpdate({extra:extra,row:row,fieldName:extra.fieldName,newValue:this.state.value});
-          }}
+          }
+          }
           onChange={ (ev) => { 
-            // console.warn('onChange',ev,ev.currentTarget.value,this.state.value);
             this.setState({ 
               value: ev.currentTarget.value 
             });
           }}>
         </Input>
       </div>
-    )
+      )
   }
 }
 

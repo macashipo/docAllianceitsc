@@ -8,6 +8,7 @@
     "Javascript": ["Javascript/common_issue"],
     "Testing": ["Testing/test_unit","Testing/running_tests"],
     "Deloyment": ["Deloyment/deloyment"],
+    "MyCategory": ["MyCategory/top_header","MyCategory/header","MyCategory/below_header","MyCategory/form_add_new","MyCategory/filter","MyCategory/alert","MyCategory/below_filter","MyCategory/chart","MyCategory/table","MyCategory/signature"],
     "MyPage": [
       "MyPage/newpage",
       {
@@ -39,7 +40,14 @@
         "label": "Types",
         "ids": [
           "MyCellType/readonly",
-          "MyCellType/text"
+          "MyCellType/text",
+          "MyCellType/textarea",
+          "MyCellType/textareafull",
+          "MyCellType/api",
+          "MyCellType/checkbox",
+          "MyCellType/currency",
+          "MyCellType/date"
+
 
         ]
       }
