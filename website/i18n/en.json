@@ -218,6 +218,75 @@
       "PageTable/table": {
         "title": "Table"
       },
+      "ReactNative/Installation/installation": {
+        "title": "Installation"
+      },
+      "ReactNative/Installation/new_project": {
+        "title": "Create new Project"
+      },
+      "ReactNative/Installation/structure": {
+        "title": "ReactNative/Installation/structure"
+      },
+      "ReactNative/Introduction/introduction": {
+        "title": "Introduction"
+      },
+      "ReactNative/MyBox/_default": {
+        "title": "_default"
+      },
+      "ReactNative/MyBox/_mybox": {
+        "title": "My Box"
+      },
+      "ReactNative/MyBox/new_box": {
+        "title": "Create New Box"
+      },
+      "ReactNative/MyButton/_default": {
+        "title": "_default"
+      },
+      "ReactNative/MyButton/_mybutton": {
+        "title": "My Button"
+      },
+      "ReactNative/MyButton/new_button": {
+        "title": "Create New Button"
+      },
+      "ReactNative/MyChart/_default": {
+        "title": "_default"
+      },
+      "ReactNative/MyChart/_mychart": {
+        "title": "My Chart"
+      },
+      "ReactNative/MyChart/new_chart": {
+        "title": "Create New Chart"
+      },
+      "ReactNative/MyForm/_default": {
+        "title": "_default"
+      },
+      "ReactNative/MyForm/_myform": {
+        "title": "My Form"
+      },
+      "ReactNative/MyForm/new_form": {
+        "title": "Create New Form"
+      },
+      "ReactNative/MyModal/_default": {
+        "title": "_default"
+      },
+      "ReactNative/MyModal/_mymodal": {
+        "title": "My Modal"
+      },
+      "ReactNative/MyModal/new_modal": {
+        "title": "Create New Modal"
+      },
+      "ReactNative/MyUI/_default": {
+        "title": "_default"
+      },
+      "ReactNative/MyUI/_myui": {
+        "title": "My UI"
+      },
+      "ReactNative/MyUI/new_ui": {
+        "title": "Create New UI"
+      },
+      "ReactNative/Testing/test": {
+        "title": "Create file test"
+      },
       "Testing/running_tests": {
         "title": "Running tests"
       },
@@ -226,8 +295,8 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
+      "ReactJs": "ReactJs",
+      "ReactNative": "ReactNative",
       "Help": "Help",
       "Blog": "Blog"
     },
@@ -249,6 +318,9 @@
       "MyModal": "MyModal",
       "MyButton": "MyButton",
       "MyUI": "MyUI",
+      "MyBox": "MyBox",
+      "MyChart": "MyChart",
+      "MyForm": "MyForm",
       "First Category": "First Category"
     }
   },

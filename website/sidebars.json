@@ -115,6 +115,75 @@
     ]
   },
   "docs-other": {
+    "Get Started": ["ReactNative/Introduction/introduction"],
+    "Installation": ["ReactNative/Installation/installation","ReactNative/Installation/new_project"],
+    "Testing": ["ReactNative/Testing/test"],
+    "MyButton": [
+      "ReactNative/MyButton/_mybutton",
+      "ReactNative/MyButton/new_button",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "ReactNative/MyButton/_default"
+        ]
+      }
+    ],
+    "MyBox": [
+      "ReactNative/MyBox/_mybox",
+      "ReactNative/MyBox/new_box",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "ReactNative/MyBox/_default"
+        ]
+      }
+    ],
+    "MyChart": [
+      "ReactNative/MyChart/_mychart",
+      "ReactNative/MyChart/new_chart",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "ReactNative/MyChart/_default"
+        ]
+      }
+    ],
+    "MyForm": [
+      "ReactNative/MyForm/_myform",
+      "ReactNative/MyForm/new_form",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "ReactNative/MyForm/_default"
+        ]
+      }
+    ],
+    "MyModal": [
+      "ReactNative/MyModal/_mymodal",
+      "ReactNative/MyModal/new_modal",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "ReactNative/MyModal/_default"
+        ]
+      }
+    ],
+    "MyUI": [
+      "ReactNative/MyUI/_myui",
+      "ReactNative/MyUI/new_ui",
+      {
+        "type": "subcategory",
+        "label": "Types",
+        "ids": [
+          "ReactNative/MyUI/_default"
+        ]
+      }
+    ],
     "First Category": ["doc4", "doc5"]
   }
 
