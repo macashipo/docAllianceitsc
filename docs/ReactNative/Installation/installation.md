@@ -21,7 +21,7 @@ Sử dụng câu lệnh "git clone"
 
 - Nếu xảy ra lỗi => Sửa lỗi:
 
-***Cách sửa lỗi thưởng sử dụng***: 
+***Các lỗi thường gặp và cách xử lí***: 
 
 * Để tiện xem lỗi: mở project bằng Android Studio → run app (nút mũi tên ở góc trên bên phải) → Hiện ra lỗi → Xem lỗi ở đâu. Thông thường có các lỗi:
 
@@ -40,3 +40,155 @@ Sử dụng câu lệnh "git clone"
 * Chạy lại react-native run-android → react-native start → reload (Ctrl + M để mở menu nếu debug bằng máy ảo trên máy tính) → Nếu chưa được reload tiếp → Tắt app mở lại nhiều lần
 
 * Nếu khi mở máy ảo Genymotion rồi chạy "react-native run-android" mà bị lỗi thì mở Android Studio -> Chọn run app -> App sẽ được cài đặt trên Genymotion -> Có thể tắt Android Studio rồi chạy bình thường bằng command line
+
+***Lỗi phải sửa ở trong code***
+
+- Trong file EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\analytics\RNFirebaseAnalyticsPackage.java
+
+Đổi:
+
+```
+import android.support.annotation.RequiresPermission;
+```
+
+thành:
+
+> import androidx.annotation.RequiresPermission;
+
+- Trong file: EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\messaging\RNFirebaseMessaging.java
+
++ Đổi 
+
+```
+import android.support.v4.app.NotificationManagerCompat;
+```
+
+thành:
+
+> import androidx.core.app.NotificationManagerCompat;
+
++ Đổi 
+
+```
+import android.support.v4.app.NotificationManagerCompat;
+```
+
+thành:
+
+> import androidx.core.app.NotificationManagerCompat;
+
+- Trong flie: EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\notifications\RNFirebaseNotifications.java
+
+Đổi:
+
+```
+import android.support.v4.app.RemoteInput;
+import android.support.v4.content.LocalBroadcastManager;
+```
+
+thành:
+
+>import androidx.core.app.RemoteInput;
+>
+>import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+- EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\messaging\RNFirebaseMessagingService.java
+
+Đổi:
+
+```
+import android.support.v4.content.LocalBroadcastManager;
+```
+
+thành
+
+> import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+- EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\notifications\DisplayNotificationTask.java
+
+Đổi:
+
+```
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.RemoteInput;
+```
+
+thành:
+
+> import androidx.core.app.NotificationCompat;
+>
+> import androidx.core.app.RemoteInput;
+
+- EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\notifications\RNFirebaseBackgroundNotificationActionReceiver.java
+
+Đổi:
+
+```
+import android.support.v4.app.RemoteInput;
+```
+
+thành:
+
+> import androidx.core.app.RemoteInput;
+
+- EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\notifications\RNFirebaseNotificationManager.java
+
+Đổi:
+
+```
+import android.support.annotation.RequiresApi;
+import android.support.v4.content.LocalBroadcastManager;
+```
+
+thành:
+
+> import androidx.annotation.RequiresApi;
+>
+> import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+- EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\ReactNativeFirebaseAppRegistrar.java
+
+Đổi:
+
+```
+import android.support.annotation.Keep;
+```
+
+thành:
+
+> import androidx.annotation.Keep;
+
+- EzyClient-RN-T72019\node_modules\react-native-firebase\android\src\main\java\io\invertase\firebase\storage\RNFirebaseStoragePackage.java
+
+```
+import android.support.annotation.RequiresPermission;
+```
+
+=> 
+
+> import androidx.annotation.RequiresPermission;
+
+- EzyClient-RN-T72019\node_modules\react-native-gesture-handler\android\src\main\java\com\swmansion\gesturehandler\react\RNGestureHandlerEvent.java
+
+Đổi:
+
+```
+import android.support.v4.util.Pools
+```
+
+thành:
+
+> import androidx.core.util.Pools;
+
+- EzyClient-RN-T72019\node_modules\react-native-gesture-handler\android\src\main\java\com\swmansion\gesturehandler\react\RNGestureHandlerStateChangeEvent.java
+
+Đổi:
+
+```
+import android.support.v4.util.Pools;
+```
+
+thành:
+
+> import androidx.core.util.Pools;
+
