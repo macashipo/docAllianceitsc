@@ -227,6 +227,9 @@
       "ReactNative/Installation/structure": {
         "title": "ReactNative/Installation/structure"
       },
+      "ReactNative/Introduction/build": {
+        "title": "Build"
+      },
       "ReactNative/Introduction/introduction": {
         "title": "Introduction"
       },

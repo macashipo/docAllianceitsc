@@ -115,7 +115,7 @@
     ]
   },
   "docs-other": {
-    "Get Started": ["ReactNative/Introduction/introduction"],
+    "Get Started": ["ReactNative/Introduction/introduction","ReactNative/Introduction/build"],
     "Installation": ["ReactNative/Installation/installation","ReactNative/Installation/new_project"],
     "Testing": ["ReactNative/Testing/test"],
     "MyButton": [
